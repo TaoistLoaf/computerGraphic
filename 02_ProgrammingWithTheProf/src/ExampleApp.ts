@@ -45,7 +45,6 @@ export class ExampleApp extends gfx.GfxApp {
         this.mouth = gfx.Geometry2Factory.createBox(0.8, 0.2)
         this.scene.add(this.mouth);
         this.mouth.position = new gfx.Vector2(0, -0.5);
-
         const rect1 = gfx.Geometry2Factory.createBox(0.2, 0.2);
         const rect2 = gfx.Geometry2Factory.createBox(0.2, 0.2)
         this.scene.add(rect1);
